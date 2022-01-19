@@ -1,6 +1,8 @@
+using Orientacao_Objetos.ContextoCompartilhado;
+
 namespace Orientacao_Objetos.ConteudoContexto
 {
-    public class Modulo
+    public class Modulo : Base
     {
         public Modulo()
         {

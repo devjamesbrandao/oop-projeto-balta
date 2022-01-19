@@ -1,6 +1,8 @@
+using Orientacao_Objetos.ContextoCompartilhado;
+
 namespace Orientacao_Objetos.ConteudoContexto
 {
-    public class CarreiraItem
+    public class CarreiraItem : Base
     {
         public CarreiraItem(
             int ordem,

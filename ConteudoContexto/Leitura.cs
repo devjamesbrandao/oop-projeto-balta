@@ -1,6 +1,8 @@
+using Orientacao_Objetos.ContextoCompartilhado;
+
 namespace Orientacao_Objetos.ConteudoContexto
 {
-    public class Leitura
+    public class Leitura : Base
     {
         public int Ordem { get; set; }
         public string Titulo { get; set; }
