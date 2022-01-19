@@ -1,6 +1,8 @@
+using Orientacao_Objetos.ContextoCompartilhado;
+
 namespace Orientacao_Objetos.ConteudoContexto
 {
-    public abstract class Conteudo
+    public abstract class Conteudo : Base
     {
         public Conteudo(string titulo, string url)
         {
